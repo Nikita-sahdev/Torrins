@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 39" width="40" height="39">
+	<title>backward-15-seconds</title>
+	<defs>
+		<image  width="32" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAjCAMAAADCMPhoAAAAAXNSR0IB2cksfwAAAF1QTFRFAAAA39/f39/f39/f39/f39/f39/f3d3d4eHh29vb2tra3Nzc39/f3d3d3t7e39/f3Nzc39/f39/f39/f3t7e39/f39/f39/f39/f////3t7e3t7e4eHh3d3d39/f36TNIwAAAB90Uk5TACC/jxDf/4B/QDBQz5Cwn2AwQHDAf4DvYADgoF9wr5IZ0J0AAAEkSURBVHicfZONcoQgDISFk7X28Ae1cp69vv9jNigIKJgZh2HyuVkCKYooGH8Ud1EK4BZ4ANVd/gvg9Xc+/8QesmFpoMURXRJhTa+YGsbJID93XtisqVCmjkU4IEq3q/sEMpOGozUyhO2qBJLlqIoya5/rHinzHRQZp/MmwYBXBig37dE7WJbFfGZxLrjpr/T5E0A/l3SGNgaCGk+j/g7OYBX8OYA6BRyIBZoYKHyZwQASXQgEi/WwBn06KzTQW6frnAeJybXLlwjyam8yhz5eRhwrNNutpqeJLDbWCn4TeSYg9luiedPqkjdT6K5ZaejP9f+gxUScRmXU8TszvOjcVJYf2mKMFVczTeKvqqpObvM5XEyvfjIxJV8he63Tm6IdwzP9AzGEEdetMB9WAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="4" y="2"/>
+</svg>

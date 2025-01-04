@@ -1,0 +1,106 @@
+:root {
+
+    --fontFamily: "Manrope", sans-serif;
+
+
+}
+
+.notifcation-center-section .bg-white {
+    padding: 24px !important;
+    border-radius: 20px !important;
+}
+
+.notifcation-center-section h3 {
+    color: #222;
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    margin: 10px 5px;
+}
+
+.notifcation-center-section h4 {
+    color: #222;
+    font-family: var(--fontFamily);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.notifcation-center-section label {
+    color: #222;
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    padding-left: 30px;
+}
+
+.notifcation-center-section span {
+    color: #222;
+    font-family: var(--fontFamily);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    display: block;
+}
+
+.nortification-col {
+
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+}
+
+.notifcation-center-section input {
+    height: 16px;
+    width: 16px;
+    accent-color: #000;
+    position: absolute;
+    margin-top: 5px !important;
+}
+
+.btn-subscribe {
+    padding: 0px 20px;
+}
+
+.submit_btn {
+    margin-top: 15px;
+}
+
+
+@media (min-width:300px) and (max-width: 900px) {
+
+.notifcation-center-section h4{
+
+    font-size: 16px;
+}
+.right-section{
+    background: #fff !important;
+}
+.row>*{
+    padding: 0px !important;
+}
+
+.container.mid-footer{
+
+
+    padding: 29px !important;
+}
+
+.notifcation-center-section .bg-white{
+
+    padding: 0px !important;
+}
+.btn {
+    width: 100%;
+}
+}

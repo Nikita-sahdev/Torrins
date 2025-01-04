@@ -1,0 +1,95 @@
+@import '../components/Common/CSS/homepage.scss';
+@import '../Webpages/SavedCourses/savedCourses.scss';
+@import '../Webpages/FeedbackLibrary/feedbackLibrary.scss';
+@import '../Webpages/SavedNotes/savedNotes.scss';
+@import '../Webpages/AboutUs/AboutUs.scss';
+@import '../Webpages/Membership/MembershipPlans.scss';
+@import '../components/Common/Personalization/personalization.scss';
+@import '../Webpages/Profile/ProfileSetting.scss';
+@import '../Webpages/Profile/Membership.scss';
+@import '../Webpages/Profile/Notification.scss';
+@import '../Webpages/Courses/Learning.scss';
+@import '../Webpages/Courses/CourseChapter/CourseChapter.scss';
+@import '../Webpages/Blogs/Blogs.scss';
+@import '../Webpages/Courses/NewCourseDetail/newCourseDetail.scss';
+@import '../Webpages/Webinar/Webinar.scss';
+
+
+
+@import '../Webpages/Blogs/Rendered-blog.scss';
+@import '../../public/assets/scss/font.scss';
+@import '../../public/assets/scss/main.scss';
+@import '../../public/assets/scss/progress-bar.scss';
+@import './Song-slider.scss';
+
+@import '../Webpages/Referal/Referal.scss';
+@import '../Webpages/Referal/Card/ReferalCard.scss';
+@import '../Webpages/Referal/Steper/Steper.scss';
+@import '../Webpages/Referal/Modal/InviteModal.scss';
+@import '../Webpages/Referal/Modal/InviteSucessModal.scss';
+
+@import '../Webpages/Referal/MyReferals/MyReferal.scss';
+@import '../Webpages/Referal/ReferralSlider/ReferralSlider.scss';
+@import '../Webpages/BattleOfBands/BattleOfBands.scss';
+@import '../Webpages/BattleOfBands/TImer.scss';
+@import '../Webpages/BattleOfBands/YearsSlider/YearsSlider.scss';
+@import '../Webpages/BattleOfBands/BandsFaq/Faq.scss';
+
+@import '../Webpages/BattleOfBands/FanPage/FanPageListing.scss';
+@import '../Webpages/BattleOfBands/FanPage/FanPage.scss';
+
+@import '../Webpages/BattleOfBands/FanPage/Modals/FansRegisterModal.scss';
+@import '../Webpages/BattleOfBands/FanPage/Modals/FanPostMessageModal.scss';
+
+
+@import '../Webpages/Authentication/WhatsappLogin/WhatsappLogin.scss';
+@import '../Webpages/Courses/CourseChapter/CourseAuthentication/whatsappModal.scss';
+
+
+@import '../Webpages/GiftCards/GiftCards.scss';
+@import '../components/Common/common.scss';
+
+@import '../Webpages/GiftCards/GiftCardSucessModal/GiftCardSucess.scss';
+
+
+@import '../components/Header/BobTicker/BobTicker.scss';
+@import '../components/Header/Header.scss';
+@import '../components/Header/Navigation/DeskTopSideBar/DeskTopSIdeBar.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Manrope", sans-serif !important;
+    overflow: auto;
+}
+
+@import '../Webpages/Chords/Chords.scss';
+@import '../Webpages/Chords/ChordsLibrary/ChordsLibrary.scss';
+
+
+
+

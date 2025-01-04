@@ -1,0 +1,10 @@
+a {
+    text-decoration: none !important;
+}
+.page-navigation ul {
+    border: none !important;
+    background: none !important;
+}
+.page-navigation {
+    border-top: unset !important;
+}

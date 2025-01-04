@@ -1,0 +1,28 @@
+
+.parent-category {
+    position: relative; 
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .child-categories {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: black;
+  }
+  
+  .parent-category:hover .child-categories {
+    display: block; 
+  }
+  .navigation{
+    height: 33px;
+    padding-left: 244px;
+    font-size: 17px;
+    padding-top: 3px;
+  }
+  
+  

@@ -1,0 +1,1468 @@
+.personalizationSection {
+    root {
+
+        --fontFamily: "Manrope", sans-serif;
+       
+       
+       }
+       
+       
+       .personalization-modal-container .btn {
+       
+        margin-top: 100px;
+        margin-bottom: 10px;
+       }
+       
+       p {
+        padding: 0px;
+        margin: 0px;
+       }
+       
+       #personalization-modal-main,
+       #personalization-modal-first,
+       #personalization-modal-second,
+       #personalization-modal-third,
+       #personalization-modal-fourth,
+       #personalization-modal-fifth,
+       #personalization-modal-sixth,
+       #personalization-modal-seventh,
+       #personalization-modal-eight,
+       #personalization-modal-ninth,
+       #personalization-modal-tenth,
+       #personalization-modal-eleventh,
+       #personalization-modal-twelth {
+        display: none;
+        overflow: hidden;
+        z-index: 999999999999999999999;
+       }
+       
+       
+       #personalization-modal-main,
+       #personalization-modal-first,
+       /* #personalization-modal-second, */
+       #personalization-modal-third,
+       #personalization-modal-fourth,
+       #personalization-modal-fifth,
+       #personalization-modal-sixth,
+       #personalization-modal-seventh,
+       #personalization-modal-eight,
+       #personalization-modal-ninth,
+       #personalization-modal-tenth,
+       #personalization-modal-eleventh,
+       #personalization-modal-twelth {
+        .sub-container {
+        width: 270px;
+        }
+       }
+       
+       
+       .personalization-modal .row {
+        justify-content: center;
+       }
+       
+       #personalization-modal-seventh {
+        /* display: block; */
+       }
+       
+       .twelth-section-personalization .reminder-container {
+        width: 465px;
+        height: 302px;
+        position: relative;
+        border-radius: 20px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), linear-gradient(106deg, #FFE259 5.72%, #FFA751 83.57%), linear-gradient(106deg, #FFB544 5.72%, #FF4F44 83.57%);
+       
+       }
+       
+       #personalization-modal-first .middle-section,
+       #personalization-modal-first .options-container {
+       
+        margin-top: 10px;
+       }
+       
+       
+       #personalization-modal-first .btn-container,
+       .fifth-section-personalization .btn-container,
+       .tenth-section-personalization .btn-container {
+       
+        margin-top: 10px !important;
+       }
+       
+       .clock-reminder {
+       
+        position: absolute;
+        top: -15%;
+       }
+       
+       #personalization-modal-first .options p {
+        font-size: 14px !important;
+       }
+       
+       .eleventh-section-personalization .btn-container {
+       
+        margin-top: 120px !important;
+       }
+       
+       .ninth-section-personalization .btn-container {
+       
+        margin-top: 113px !important;
+       }
+       
+       .graph-section {
+        position: absolute;
+        bottom: 0%;
+       }
+       
+       .sub-container {
+        cursor: pointer;
+       }
+       
+       .personalization-modal .recommended {
+        position: absolute;
+        top: -15%;
+        color: #BE8814;
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        border-radius: 30px;
+        background: #FFF4DE;
+        text-align: center;
+        padding: 2px 8px;
+        /* 15.6px */
+       
+       }
+       
+       .fourth-section-personalization .options {
+       
+       
+        /* width: 191px; */
+        padding: 12px;
+        gap: 10px;
+       
+       }
+       
+       .tenth-section-personalization .options {
+       
+        /* width: 191px; */
+        padding: 19px 12px;
+        gap: 10px;
+       }
+       
+       #personalization-modal-seventh .personalization-modal {
+        background: linear-gradient(117deg, #FFE259 -11.45%, #FFA751 109.41%), linear-gradient(106deg, #FFB544 5.72%, #FF4F44 83.57%);
+       
+       }
+       
+       #personalization-modal-seventh .content-section {
+       
+        position: relative;
+        z-index: 3;
+        bottom: 15%;
+       }
+       
+       #personalization-modal-seventh .personalization-container {
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       
+       .bg-circle {
+        border-radius: 320.921px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.00) 100%);
+        width: 320.921px;
+        height: 320.921px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       }
+       
+       .personalization-modal {
+        position: relative;
+       }
+       
+       .graph-section {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+       }
+       
+       .personalization-modal {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        /* Make the modal occupy the entire viewport height */
+       }
+       
+       .personalization-container {
+        flex-grow: 1;
+        /* Allow the container to grow and occupy all available space */
+        overflow-y: auto;
+        /* Enable vertical scrolling if needed */
+       }
+       
+       .graph-section {
+        flex-shrink: 0;
+        /* Prevent the graph section from shrinking */
+        margin-top: auto;
+        /* Push the graph section to the bottom */
+       }
+       
+       
+       .fifth-section-personalization .options {
+        width: 340px;
+        gap: 10px;
+        padding: 0px 7px;
+       
+       }
+       
+       .options p {
+       
+        text-overflow: ellipsis;
+        /* overflow: hidden; */
+        /* width: 300px; */
+        /* white-space: nowrap; */
+       }
+       
+       .fifth-section-personalization .options p {
+       
+        padding: 0px;
+       }
+       
+       .tenth-section-personalization .options p {
+        padding: 0;
+        font-size: 14px;
+       }
+       
+       .middle-section {
+       
+        margin-top: 30px;
+       
+       }
+       
+       
+       .charts-css.column.multiple td {
+        background-color: lightblue;
+        border: 1px solid #ccc;
+       }
+       
+       
+       .charts-css.column.multiple {
+        display: flex !important;
+        justify-content: flex-start !important;
+        height: auto;
+       
+       }
+       
+       .charts-css.column.multiple {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        /* 5 columns */
+        grid-auto-rows: minmax(20px, auto);
+        /* Minimum height 20px, auto height */
+        gap: 5px;
+        /* Gap between cells */
+        overflow: hidden;
+       }
+       
+       .twelth-section-personalization .reminder-section {
+       
+        margin-top: 100px;
+       }
+       
+       .twelth-section-personalization .clock-reminder {
+       
+        width: 98px;
+        height: 98px;
+        border-radius: 50%;
+        background: #FFD077;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+       }
+       
+       .twelth-section-personalization .clock-reminder img {
+       
+        width: 49.559px;
+        height: 55.554px;
+       }
+       
+       .custom-progress-bar {
+        background: #999999;
+        height: 8px;
+        width: 286px;
+        border-radius: 9px;
+       }
+       
+       .options-active {
+        /* border-radius: 80px;
+        border: none !important; */
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), linear-gradient(106deg, #FFE259 5.72%, #FFA751 83.57%), linear-gradient(106deg, #FFB544 5.72%, #FF4F44 83.57%) !important;
+       }
+       
+       
+       .personalization-modal {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ECECEC;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+        margin-top: 67px;
+       
+       }
+       
+       
+       .personalization-container {
+       
+        padding: 15px 60px;
+        display: flex;
+        position: relative;
+        z-index: 9999;
+       }
+       
+       .custom-progress-bar {
+       
+        width: 100% !important;
+       }
+       
+       .custom-progress-compeleted {
+       
+        width: 20%;
+       }
+       
+       .personalization-modal h1 {
+        color: #000;
+        font-family: var(--fontFamily);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: -0.72px;
+        margin-top: 10px;
+       }
+       
+       .personalization-modal .sub-text-content {
+        color: #222;
+        font-family: var(--fontFamily);
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: -0.56px;
+       }
+       
+       
+       .assessment-categories {
+        display: flex;
+        margin-top: 10px;
+       
+       }
+       
+       .active-img {
+       
+        border-radius: 18px;
+        border: 1.5px solid #FFC444;
+       }
+       
+       img {
+        cursor: pointer;
+       }
+       
+       #personalization-modal-main .middle-section {
+        margin-top: 30px;
+        margin-bottom: 20px;
+       }
+       
+       .ninth-section-personalization .options-container .options {
+        width: 271px;
+       
+       }
+       
+       .options {
+        border-radius: 80px;
+        border: 1px solid #D6D6D6;
+        background: #FFF;
+        width: 271px;
+        height: 67px;
+       }
+       
+       
+       
+       
+       .graph-section {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        opacity: 0.6;
+       }
+       
+       .charts-css.area tbody,
+       .charts-css.column tbody,
+       .charts-css.line tbody {
+       
+        z-index: 1;
+       }
+       
+       
+       .personalization-modal .btn {
+        border-radius: 32px;
+        background: #333;
+        color: #FFF;
+        text-align: right;
+        font-family: var(--fontFamily);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: auto;
+        padding: 5px 30px;
+       }
+       
+       .skip-btn {
+        border-radius: 32px;
+        color: #333;
+        background-color: transparent;
+        text-align: right;
+        font-family: var(--fontFamily);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border: none;
+       
+       }
+       
+       .personalization-modal .btn:hover {
+        background: #333;
+        color: #FFF;
+       
+       
+       }
+       
+       #personalization-modal-eleventh .options p {
+        font-size: 14px;
+       
+       }
+       
+       #personalization-modal-eight .options p,
+       .fourth-section-personalization .options p {
+        font-size: 14px;
+        padding: 0px;
+        font-weight: 600;
+        text-align: start;
+       }
+       
+       .fifth-section-personalization .options p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: start;
+       }
+       
+       .sixth-section-personalization .options p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 11px 10px;
+       }
+       
+       .ninth-section-personalization .options p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 18px 10px;
+       
+       }
+       
+       
+       .sixth-section-personalization .btn-container {
+       
+        margin-top: 60px;
+       
+       }
+       
+       /* #personalization-modal-first .sub-container {
+        width: auto 
+       } */
+       
+       #personalization-modal-first .btn-container {
+        margin-top: 30px !important;
+       }
+       
+       .personalization-modal .btn-container {
+        margin-top: 35px;
+        margin-bottom: 35px;
+       }
+       
+       #personalization-modal-first .options-container {
+       
+        /* width: 89%; */
+       }
+       
+       #personalization-modal-first .sub-container {
+       
+        /* padding: 0px; */
+       }
+       
+       
+       .options .faded {
+       
+        font-size: 10px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        text-align: center;
+        font-family: var(--fontFamily);
+       }
+       
+       .options p {
+        padding: 20px 40px;
+        color: rgba(51, 51, 51, 1);
+        text-align: center;
+        font-family: var(--fontFamily);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 16.8px */
+       }
+       
+       .second-section-personalization .options-container .options p {
+       
+        font-size: 20px;
+        padding: 30px 41px;
+        font-weight: 700;
+       
+       }
+       
+       
+       /* .second-section-personalization .middle-section,
+       .fourth-section-personalization .middle-section {
+        margin-top: 40px;
+       
+       } */
+       
+       .second-section-personalization .options-container .options {
+       
+        height: 85px;
+        width: 350px;
+       
+       }
+       
+       .options-container {
+        margin-top: 30px;
+       }
+       
+       
+       
+       .img-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+       
+       }
+       
+       .img-container img {
+        width: 247px;
+        height: 279px;
+       }
+       
+       .third-section-personalization .sub-container {
+       
+        display: flex;
+        justify-content: center;
+       
+       }
+       
+       
+       /* .third-section-personalization .middle-section {
+       
+        margin-top: 40px;
+       
+       } */
+       
+       
+       .cat-name {
+       
+        position: absolute;
+        top: 75%;
+        color: #FFF;
+        font-family: var(--fontFamily);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+       }
+       
+       .third-section-personalization .options-container .options {
+        width: 191px;
+        height: 70px;
+        padding: 25px;
+        gap: 20px;
+       }
+       
+       
+       .sixth-section-personalization .options-container .options {
+        padding: 0px;
+        width: 270px;
+       }
+       
+       .eight-section-personalization .options-container .options {
+        padding: 18px 8px;
+        width: 215px;
+        gap: 15px;
+       
+       }
+       
+       .eight-section-personalization .options-container .options-contents {
+        width: 240px !important;
+       
+       
+       }
+       
+       .eight-section-personalization .row {
+       
+        width: 70%;
+       }
+       
+       
+       .third-section-personalization .options-container .options p {
+       
+        padding: 0px;
+        /* white-space: nowrap; */
+        font-size: 14px !important;
+        font-weight: 600;
+       
+       }
+       
+       
+       .line-flow {
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+        margin-bottom: 80px;
+        animation: wave 3s linear infinite reverse
+       }
+       
+       .options-container {
+       
+        padding: 0px;
+       }
+       
+       .btn-skip-container{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 10%;
+        background: transparent;
+        width: 100%;
+       }
+       
+       @keyframes wave {
+        0% {
+        transform: skewX(0deg) scaleY(1);
+        }
+       
+        50% {
+        transform: skewX(20deg) scaleY(1.2);
+        /* Adjust angle and scale as needed */
+        }
+       
+        100% {
+        transform: skewX(0deg) scaleY(1);
+        }
+       }
+       
+       
+       .third-section-personalization .options-container,
+       .fifth-section-personalization .options-container {
+        margin-top: 40px;
+       }
+       
+       .fourth-section-personalization .options-container .row {
+        margin: 0px auto;
+        width: 60%;
+       }
+       
+       .personalization-modal .fifth-section-personalization .row {
+        margin: 0px auto;
+        width: 80%;
+        overflow: hidden;
+       
+        
+       }
+       
+       
+       
+       .sixth-section-personalization .sub-container {
+        width: auto !important;
+       
+       }
+       
+       .fifth-section-personalization .sub-container {
+       
+        width: auto !important;
+       }
+       
+       .personalization-modal p {
+        color: #222;
+        text-align: center;
+        font-family: var(--fontFamily);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: -0.36px;
+       }
+       
+       
+       
+       .eight-section-personalization .options p {
+        font-size: 14px;
+        padding: 0px;
+        text-align: start;
+       
+       }
+       
+       #personalization-modal-first .options {
+        width: 250px;
+       }
+       
+       
+       .second-section-personalization .row {
+       
+        width: 60%;
+       }
+       
+       
+       
+       body.modal-open .modal {
+       
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-tap-highlight-color: transparent;
+        z-index: 9999999999999;
+       }
+       
+       .sub-container {
+       
+        margin-top: 20px;
+       
+       }
+       
+       
+       @media only screen and (max-width: 830px) {
+       
+        #personalization-modal-first .assessment-categories img {
+        height: 100px;
+        width: 100px;
+        }
+       
+        .third-section-personalization .options-container .options p {
+       
+        white-space: break-spaces;
+        }
+       
+        .eight-section-personalization .options-container .options {
+       
+        width: 240px !important;
+        }
+       
+        .sub-container {
+       
+        width: 50%;
+       
+        }
+       
+        .personalization-modal {
+        margin-top: 0px;
+        }
+       
+        .options {
+       
+        height: 59px;
+        }
+       
+        .personalization-modal h1 {
+        font-size: 24px;
+        }
+       
+        .fourth-section-personalization .options-container .row,
+        .fifth-section-personalization .options-container .row {
+        margin: 0px auto;
+        width: 100%;
+        }
+       
+        #personalization-modal-first .btn-container,
+        .fifth-section-personalization .btn-container,
+        .tenth-section-personalization .btn-container {
+        margin-top: 20px !important;
+        }
+       
+        .personalization-modal .btn {
+        height: 40px !important;
+        }
+       
+       
+        .options-container {
+        margin-top: 0px;
+        }
+       
+        .personalization-modal .sub-text-content {
+        font-size: 18px;
+        }
+       
+        #personalization-modal-first .options-container {
+        margin-top: 0px !important;
+        }
+       
+        .personalization-modal {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ECECEC;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        z-index: 9999;
+       
+        }
+       
+       
+       
+        .tenth-section-personalization .options {
+        min-width: 191px;
+        max-width: 191px;
+        height: 67.072px;
+        }
+       
+        .options-container {
+        margin-top: 20px !important;
+        }
+       
+        .eight-section-personalization .options-container .options {
+       
+        /* max-width: 154px;
+        min-width: 154px; */
+        padding: 12px;
+        gap: 5px;
+        }
+       
+        .fourth-section-personalization .options {
+        /* width: 191px; */
+        padding: 10px;
+        gap: 5px;
+       
+        }
+       
+        .fourth-section-personalization .options p {
+        font-size: 12px;
+        padding: 0px;
+        text-align: start;
+       
+        }
+       
+        #personalization-modal-eight .eight-section-personalization .options p {
+        font-size: 12px;
+        padding: 0px;
+        text-align: start;
+       
+        }
+       
+        .third-section-personalization .options-container .options {
+       
+        gap: 10px;
+        }
+       
+        .third-section-personalization .options-container .options p {
+       
+       
+        font-size: 12px;
+       
+        }
+       
+        .sub-container {
+       
+        /* padding: 5px; */
+        margin-top: 12px;
+        width: 50%;
+       
+        }
+       
+        .graph-section {
+        height: 120px;
+        }
+       
+        #personalization-modal-eleventh .sub-container {
+       
+        width: 100%;
+        padding: 0
+        }
+       
+       
+        .personalization-container {
+        overflow: hidden;
+        }
+       
+       
+       
+        .fifth-section-personalization .sub-container,
+        .third-section-personalization .sub-container {
+        width: 50%;
+       
+        }
+       
+        .eight-section-personalization .sub-container {
+       
+        width: 100%;
+        }
+       
+       
+       
+        .personalization-container .contents {
+       
+       
+        padding: 0px 16px;
+        }
+       
+       
+        .custom-progress-bar {
+       
+        width: 100%;
+        }
+       
+        .custom-progress-compeleted {
+       
+        width: 20%;
+        }
+       
+        .personalization-container {
+        padding: 0px
+        }
+       
+        h1 {
+        font-size: 25px;
+        }
+       
+        .assessment-categories {
+        flex-direction: column;
+        }
+       
+        .personalization-modal .btn {
+        font-size: 12px;
+        width: 271px;
+       
+       
+        }
+       
+        /* .btn-container {
+        position: fixed;
+        bottom: 0px;
+        } */
+       
+        .fourth-section-personalization .options-container {
+       
+        width: 100%;
+        }
+       
+       
+        .fifth-section-personalization .options-container .options {
+       
+        padding: 11px;
+        }
+       
+        .sixth-section-personalization .options-container .options p,
+        .fifth-section-personalization .options-container .options p {
+       
+        font-size: 12px;
+        font-weight: 600;
+       
+       
+        }
+       
+        .second-section-personalization .row {
+       
+        width: 100%;
+        }
+       
+       
+        .assessment-categories {
+        margin-bottom: 20px;
+        }
+       
+        .img-container img {
+        width: 171px;
+        height: 213px;
+        }
+       
+        .sixth-section-personalization .sub-container {
+       
+        width: 100%;
+        }
+       
+        .sixth-section-personalization .options-container .options {
+       
+        /* width: 280px; */
+        padding: 12px;
+        }
+       
+        .fifth-section-personalization .options-container .options,
+        .third-section-personalization .options-container .options {
+        /* max-width: 154px; */
+        /* min-width: 154px; */
+        height: 55px;
+       
+        }
+       
+       
+        .third-section-personalization .options-container .options {
+       
+        padding: 12px;
+        }
+       
+        .second-section-personalization .options-container .options p {
+       
+        font-size: 14px;
+        font-weight: 600;
+        }
+       
+        .second-section-personalization .options-container .options {
+        height: 67px;
+        width: 280px;
+       
+        }
+       
+        .custom-progress-bar {
+        border-radius: 0px;
+        }
+       
+       
+        .options {
+        padding: 5px;
+        }
+       
+       
+       
+        .third-section-personalization .contents {
+        padding: 0px 20px;
+        }
+       
+       
+        #personalization-modal-first .sub-container,
+        .second-section-personalization .sub-container,
+        .ninth-section-personalization .sub-container {
+        width: 100%;
+       
+        }
+       
+        .seventh-section-personalization h1 {
+        font-size: 24px;
+        }
+       
+        .ninth-section-personalization .options-container .options {
+       
+        /* width: 288px; */
+        }
+       
+        #personalization-modal-seventh .content-section {
+       
+        width: 60%;
+        }
+       
+        #personalization-modal-seventh .personalization-container {
+        height: 100%;
+        }
+       
+        .personalization-modal p {
+       
+        line-height: 120%;
+        font-weight: 400;
+        letter-spacing: 0.14px;
+        font-size: 14px;
+       
+        }
+       
+       
+       
+       
+        .middle-section {
+        margin-top: 20px;
+        }
+       }
+       
+       @media (min-width: 1200px) {
+
+        .personalization-modal .fifth-section-personalization .row{
+          height: auto !important;
+        }
+        .third-section-personalization .container {
+       
+        max-width: 1000px;
+        }
+       
+        .fifth-section-personalization .container {
+       
+        max-width: 1000px;
+        }
+       
+        .tenth-section-personalization .options-container {
+        width: 60%;
+        }
+       
+        .fifth-section-personalization .container {
+       
+        width: 60%;
+        }
+       
+       
+       }
+       
+       
+       @media only screen and (max-width: 1200px) {
+       
+        .eight-section-personalization .row {
+       
+        width: 100%;
+        }
+       
+        #personalization-modal-first .options p {
+       
+        font-size: 12px !important;
+        }
+       
+        .assessment-categories img {
+       
+        height: 150px;
+        width: 150px;
+        }
+       
+        .middle-section {
+       
+        margin-top: 10px;
+        }
+       
+        .personalization-modal .btn-container {
+       
+        position: absolute;
+        bottom: 0%;
+        }
+       
+        #personalization-modal-first .btn-container {
+       
+        position: absolute;
+        bottom: 0%;
+        }
+       
+       
+       
+       }
+       
+       @media only screen and (max-width: 380px) {
+        .sub-container {
+        width: 100%;
+        }
+       
+        .tenth-section-personalization .options-container {
+        width: 100%;
+        }
+       
+        .personalization-modal h1 {
+        font-size: 18px;
+        }
+       }
+       
+       @media only screen and (max-width: 600px) {
+       
+        .tenth-section-personalization .options-container {
+        width: 100%;
+        }
+       
+        #personalization-modal-tenth .sub-container {
+        width: 100%;
+        }
+       
+        .eight-section-personalization .row {
+       
+        max-height: 65%;
+        overflow-y: scroll;
+        }
+       
+       }
+       
+       @media (min-width:1000px) and (max-width: 1200px) {
+       
+        .fourth-section-personalization .options-container .row,
+        .fifth-section-personalization .options-container .row {
+       
+        width: 100%;
+        }
+       
+        .second-section-personalization .row {
+        width: 100%;
+        }
+       
+        .personalization-modal .btn {
+        padding: 10px 30px;
+        }
+       
+       
+       
+       }
+       
+       
+       
+       @media (min-width:200px) and (max-width: 800px) {
+       
+       
+        .personalization-modal .btn-container {
+       
+        position: absolute;
+        bottom: 0%;
+        }
+       
+       }
+       
+       
+       @media (min-width:900px) and (max-width: 1200px) {
+       
+       
+        .personalization-modal .btn-container {
+       
+        position: absolute;
+        bottom: 0% !important;
+        }
+       
+        .second-section-personalization .row {
+        width: 100%;
+        }
+       
+       }
+       
+       
+       @media (min-width:200px) and (max-width: 380px) {
+       
+        .personalization-modal .row {
+        max-height: 400px;
+        overflow: scroll;
+       
+        }
+       
+        .eight-section-personalization .row {
+        max-height: 63%;
+        overflow: scroll;
+        }
+       
+        .tenth-section-personalization .row {
+        overflow: scroll;
+        max-height: 340px;
+        }
+       
+        .third-section-personalization .row {
+       
+        max-height: 400px;
+        overflow: scroll;
+        }
+       
+        .fifth-section-personalization .row {
+        max-height: 340px;
+        overflow: scroll;
+        }
+       
+        .fifth-section-personalization .options-container {
+        margin-top: 40px;
+        overflow: scroll;
+        height: 300px;
+        }
+       }
+       
+       @media (min-width:380px) and (max-width: 800px) {
+       
+       
+        .eight-section-personalization .row {
+        max-height: 90%;
+        overflow: scroll;
+        }
+       
+        .personalization-modal .row {
+        max-height: 550px;
+        overflow: scroll;
+       
+        }
+       
+        .tenth-section-personalization .row {
+        overflow: scroll;
+        max-height: 90%;
+        }
+       
+        .fifth-section-personalization .options-container {
+        margin-top: 40px;
+        overflow: scroll;
+        height: 481px;
+        }
+       
+       }
+       
+       
+       
+       @media (min-width:1200px) and (max-width: 1500px) {
+       
+        .fifth-section-personalization .options-container .row {
+        width: 90%;
+        }
+       
+       }
+       
+       
+       @media (min-height: 400px) and (max-height: 649px) {
+       
+       
+       
+        .personalization-modal .fifth-section-personalization .row {
+        overflow-y: scroll;
+        height: 235px;
+        max-height: 100%;
+        }
+       
+      
+       
+       
+       
+       }
+       
+       @media (min-height: 650px) and (max-height: 749px) {
+       
+       
+       
+        .personalization-modal .fifth-section-personalization .row {
+        /* overflow: scroll; */
+        height: 335px;
+        max-height: 100%;
+        }
+       
+       
+       
+       
+       }
+       
+       @media (min-height: 750px) and (max-height: 900px) {
+       
+       
+       
+       
+       
+        .fifth-section-personalization .options-container {
+        /* height: 700px; */
+        }
+       
+       
+       
+       }
+       .personalization-modal .fifth-section-personalization .row {
+            /* overflow-y: visible; */
+            /* height: auto; */
+            max-height: 100%;
+   
+        }
+
+        
+@media  (min-height: 670px) and (max-height: 749px) {
+
+
+
+  .personalization-modal .fifth-section-personalization .row {
+      /* overflow: scroll; */
+      height: 335px;
+      max-height: 100%;
+  }
+  .third-section-personalization .row {
+      overflow: scroll;
+      height: 335px;
+      max-height: 100%;
+  
+  }
+
+
+
+
+}
+
+@media (min-height: 750px) and  (max-height: 900px) {
+
+
+
+  .personalization-modal .fifth-section-personalization .row {
+      overflow-y: scroll;
+      height: 400px;
+      max-height: 100%;
+
+  }
+
+  .fifth-section-personalization .options-container {
+      /* height: 700px; */
+  }
+  .third-section-personalization .row {
+      overflow-y: scroll;
+      height: auto;
+      max-height: 100%;
+  
+  }
+
+
+
+}
+
+@media (min-height: 649px) and (max-height: 669px){
+
+.personalization-modal .fifth-section-personalization .row {
+   overflow-y: scroll;
+  height: 269px;
+   max-height: 100%;
+}
+
+.third-section-personalization .row {
+  overflow-y: scroll;
+  height: 350px;
+   max-height: 100%;
+
+}
+}
+
+.personalization-modal .row::-webkit-scrollbar {
+
+  display: none;
+}
+
+
+  /************************ CSS BY SHIKHAR ***********************************/
+  .custom-progress-compeleted {
+    background: linear-gradient(270deg, #54D262 28.23%, #4DAA57 89.82%);
+    height: 8px;
+    width: 40%;
+    border-radius: 9px;
+  }
+  #personalization-modal-main {
+    display: none;
+    overflow: hidden;
+    z-index: 99 !important;
+  }
+  .mainModalSection {
+    z-index: 1 !important;
+  }
+}

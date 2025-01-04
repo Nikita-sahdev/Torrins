@@ -1,0 +1,116 @@
+:root {
+
+    --fontFamily: "Manrope", sans-serif;
+
+}
+
+html,
+body,
+.container-notfound {
+    height: 100%;
+
+}
+
+
+
+.container-notfound {
+
+    background-image: url('../img/bg-notfound.png');
+    background-size: cover;
+}
+
+.notfound-main h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.72px;
+}
+
+.notfound-main p {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.36px;
+}
+
+.gotoHome {
+    color: #222222 !important;
+    background: #FFF !important;
+    border-radius: 40px !important;
+    height: 40px;
+    text-align: right;
+    font-family: var(--fontFamilty);
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+    border: none;
+    padding: 10px 20px !important;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    padding-top: 190px;
+    height: 100%;
+    flex-direction: column;
+}
+.container-notfound {
+    position: relative;
+    min-height: 800px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 11, 23, 0.5); 
+  }
+
+  
+  .contents {
+    position: relative; 
+    z-index: 1; 
+  }
+  
+
+
+
+@media (max-width:600px) {
+
+    .container-notfound {
+
+        background-image: url('../img/bg-notfound-mob-.png');
+        background-size: cover;
+    }
+
+
+
+
+    .notfound-main h1 {
+
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .notfound-main p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+    .contents{
+        padding: 210px 30px;
+    }
+}

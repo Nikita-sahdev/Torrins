@@ -1,0 +1,35 @@
+#dropdwns {
+    .mbl-footer-dropdown button::after {
+        left: 0px !important;
+    }
+}
+
+.footer {
+
+    .top {
+        ul {
+            list-style: none;
+            align-items: center;
+
+            li {
+                color: #FFF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            li.active {
+            color: #999999;
+
+            }
+        }
+
+        .ri-arrow-right-s-line:before{
+            color: #FFC444;
+            margin-top: 4px;
+            font-size: 21px;
+
+        }
+
+    }
+}

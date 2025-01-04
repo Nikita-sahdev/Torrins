@@ -1,0 +1,19 @@
+#graph-section img {
+  display: block;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  animation: moveRightToLeft 40s linear infinite;
+
+}
+
+@keyframes moveRightToLeft {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,380 @@
+
+:root {
+
+  --fontFamily: "Manrope", sans-serif;
+
+
+}
+
+p,
+li,
+a {
+  font-family: var(--fontFamily);
+}
+
+.right-section {
+  background: linear-gradient(3deg, rgba(255, 243, 218, 0.2) 2.19%, rgba(255, 201, 82, 0.2) 97.81%) !important;
+
+}
+
+
+.album .song-class {
+  border-radius: 30px;
+  background: #FFF4DE;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  color: #BE8814;
+  font-family: var(--fontFamilty);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  width: max-content
+}
+
+
+.second-card p {
+  color: #333 !important;
+  line-height: normal !important;
+  max-width: 80ch;
+}
+
+.easy {
+  color: #BE8814;
+  font-family: var(--fontFamily);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  display: inline-flex;
+  padding: 4px 12px;
+  align-items: center;
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  border-radius: 30px;
+  background: #FFF4DE;
+  transform: translate(-50%, -50%);
+}
+
+.love-icon,
+.share-icon {
+  height: auto !important;
+  width: auto !important;
+
+
+}
+
+.image-container {
+  position: relative;
+  min-height: 170px;
+  min-width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.course-history .video {
+  object-fit: inherit !important;
+  max-height: 170px !important;
+  max-width: 270px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.images-container .image {
+  position: absolute;
+  display: block;
+  height: 26px !important;
+  width: 26px !important;
+}
+
+.count-taughtby {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  background: var(--Torrins-Yellow, #FFC444);
+  left: 40px;
+  color: var(--Gray-1, #333);
+  font-family: var(--fontFamily);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+}
+
+.song-info {
+  color: #BE8814;
+  font-family: var(--fontFamily);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  display: inline-flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 30px;
+  background: #FFF4DE;
+  width: max-content;
+}
+
+.recomendation-text {
+  color: #000;
+  font-family: var(--fontFamily);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tittle h4 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  white-space: pre-wrap;
+  /* 21.6px */
+}
+
+.album p {
+  color: #333 !important;
+  font-family: var(--fontFamilty) !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  opacity: 1 !important;
+}
+
+.tittle h5 {
+  color: var(--Gray-1, #333);
+  font-family: var(--fontFamilty);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.songLessons {
+  border-radius: 20px;
+}
+
+.recomended-section-songs {
+
+  grid-template-columns: 1fr 202px 295px 200px;
+  grid-gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #D6D6D6;
+
+}
+
+.recomendation-contents h5 {
+  color: #333;
+  font-family: var(--fontFamily);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.btn-containers {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+
+#coursesAndModule .course-history .container {
+
+  position: relative;
+}
+
+#coursesAndModule .share-love-container {
+  position: absolute;
+  right: 0%;
+}
+
+#coursesAndModule .second-card {
+  height: 170px;
+  position: relative;
+}
+
+/* .table>:not(caption)>*>*{
+  padding: 0px !important;
+} */
+
+/* hr {
+  border-left: 2px solid #D6D6D6 !important;
+  height: 60% !important;
+  margin: 0 10px !important;
+  width: 100%;
+} */
+
+.song-shadow {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  padding: 8px 0px
+}
+
+.mob-arrow-head {
+  color: var(--Torrins-Black, #222);
+  font-family: var(--fontFamily);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width:768px) {
+
+  .easy {
+    top: 10%;
+    left: 10%;
+  }
+
+  .btn-containers {
+    position: unset;
+
+  }
+
+  .recomendation-text {
+    font-size: 10px;
+  }
+
+  .course-history .video {
+    max-height: 170px !important;
+    max-width: 280px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-course-img {
+    text-align: center;
+  }
+
+  .easy {
+    top: 15%;
+    left: 15%;
+  }
+
+  .second-card {
+    width: 100%;
+    /* Full width on smaller screens */
+  }
+
+  .play-icon {
+    width: 15px !important;
+  }
+
+
+  /* Add more styles for smaller screens as needed */
+}
+
+@media (max-width: 306px) {
+
+  .btn-explore {
+    height: 20px !important;
+    font-size: 10px !important;
+    padding: 0px 4px !important;
+
+  }
+
+  .btn-learn-more {
+    height: 20px !important;
+    font-size: 10px !important;
+    padding: 0px 4px !important;
+
+  }
+}
+
+.cut-text-songs {
+  width: 200px !important;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+
+  .recommended-songs h4 {
+
+    font-size: 12px;
+  }
+
+  .recomendation-text {
+    font-size: 10px;
+  }
+
+  .tittle h5 {
+    font-size: 12px !important;
+  }
+
+
+  .recommended-songs p {
+
+    font-size: 12px !important;
+  }
+
+  section.celebrity-instructors-section.category_list.details-page .song-cat-list table th {
+
+    font-size: 12px !important;
+  }
+
+  .course-history .video {
+    max-height: 170px !important;
+    max-width: 270px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+
+  .course-history .video {
+    object-fit: inherit !important;
+    max-height: 170px !important;
+    max-width: 270px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media(max-width: 1200px) {
+
+
+
+  #coursesAndModule .second-card {
+    height: auto;
+  }
+
+  .btn-containers{
+
+    position: unset;
+  }
+}

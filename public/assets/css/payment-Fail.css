@@ -1,0 +1,228 @@
+:root {
+
+    --fontFamily: "Manrope", sans-serif;
+
+}
+
+p,
+li,
+a {
+    font-family: var(--fontFamily);
+}
+
+
+.payment-fail-container {
+
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(3deg, rgba(255, 218, 218, 0.2) 2.19%, rgba(255, 82, 82, 0.2) 97.81%);
+    margin: 0px 166px;
+}
+
+
+hr {
+
+    width: 100%;
+}
+
+
+.payment-fail-container h1 {
+    color: #222222;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+
+
+.payment-fail-container h3 {
+    color: #222222;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 24px */
+}
+
+.payment-fail-container .contents {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 147px;
+    margin-bottom: 151px;
+    max-width: 66ch;
+
+}
+
+
+.payment-fail-container p {
+
+    color: #999999;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+
+.payment-fail-container span {
+    color: #999999;
+    font-family: var(--fontFamily);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.payment-fail-container h4 {
+    color: #333333;
+    font-family: var(--fontFamily);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+.payment-fail-container .explore {
+
+    color: #000;
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.payment-fail-container .btn-setprofile {
+    background: #222222 !important;
+    border-radius: 40px !important;
+    color: #FFF !important;
+    font-family: var(--fontFamilty) !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal;
+    padding: 10px 50px !important;
+    border: none;
+    text-align: center !important;
+}
+
+.payment-head {
+    margin-top: 20px;
+
+}
+
+@media (min-width:200px) and (max-width:768px) {
+
+
+    .payment-fail-container {
+
+        margin: 0px auto;
+        background: #FFF;
+    }
+
+
+    .payment-fail-container .info-membership-section .heading {
+
+        font-weight: 800;
+        padding: 17px 28px;
+    }
+
+
+    .payment-fail-container .contents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 16px;
+        width: 100%;
+
+
+    }
+
+    .payment-fail-container h1 {
+
+        font-size: 24px;
+    }
+
+    .payment-fail-container h3 {
+        font-size: 16px;
+    }
+
+    .payment-fail-container h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .payment-fail-container .info-membership-section {
+
+        width: auto;
+    }
+
+    .payment-fail-container p {
+
+        font-size: 12px;
+
+    }
+
+    .payment-fail-container .btn-setprofile {
+        width: 100%;
+    }
+
+    .payment-head {
+        margin-top: 20px;
+
+    }
+/* 
+    .payment-head h3 {
+        padding: 0px 50px;
+
+    } */
+    .payment-head{
+        max-width: 25ch;
+    }
+
+}
+
+
+@media (min-width:769px) and (max-width:1268px) {
+
+
+
+
+
+    .payment-fail-container h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .payment-fail-container {
+
+        margin: 0px 30px;
+    }
+}
+@media (min-width:1200px) and (max-width:1400px) {
+
+
+.payment-fail-container .contents{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}

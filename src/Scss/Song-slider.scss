@@ -1,0 +1,301 @@
+.course-song-slider {
+    & {
+        padding: 3rem 0px 0px !important;
+    }
+
+    .action-innner-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        gap: 8px;
+        z-index: 33;
+        display: flex;
+    }
+
+    .action-innner-btn img {
+        width: 100%;
+        border-radius: 14px;
+        max-height: 156px;
+        object-fit: cover;
+        height: 30px;
+    }
+
+    .swiper-slide {
+        position: relative;
+    }
+
+    .action-innner-btn a {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    h3 {
+        color: #222;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: -0.72px;
+    }
+
+    img.banner {
+        width: 603px !important;
+        border-top-left-radius: 32.131px;
+        border-top-right-radius: 32.131px;
+        height: 330px !important;
+        cursor: pointer;
+
+    }
+
+    video {
+        width: 603px !important;
+        border-top-left-radius: 32.131px;
+        border-top-right-radius: 32.131px;
+        cursor: pointer;
+        // position: absolute;
+        width: 100%;
+        height: 330px !important;
+        padding-bottom: 0px;
+
+
+    }
+    #video {
+        width: 603px !important;
+        height: 323px !important;
+        transition: none  !important;
+    }
+
+    .slick-list {
+        height: max-content;
+        margin-top: -91px;
+    }
+
+    .slick-slide {
+        height: max-content;
+        display: flex;
+    justify-content: center;
+    }
+
+    .slick-prev {
+        left: 43%;
+        bottom: 6.5%;
+        top: auto;
+        z-index: 99;
+    }
+
+    .slick-next {
+        right: 43%;
+        bottom: 6.5%;
+        top: auto;
+        z-index: 99;
+    }
+
+    .card {
+        width: 603px !important;
+        height: 500px !important;
+        position: relative;
+        border-radius: 32.131px;
+        border: 1px solid #C6C6C6;
+        background: #fff;
+
+    }
+
+    .course-name {
+
+        border-radius: 5.355px 30px 5.355px 5.355px;
+        background: #CFC8FF;
+        color: #222;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        padding: 5px 20px;
+        z-index: 1;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .btn-1 {
+        position: absolute !important;
+        font-size: 28px !important;
+        bottom: 2rem;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: 0px auto;
+        text-transform: capitalize;
+        line-height: normal;
+        letter-spacing: normal;
+        padding: 20px;
+        height: 90px !important;
+    }
+
+
+    .card-title {
+        color: #000;
+        font-size: 28.918px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 115%;
+        /* 33.256px */
+        letter-spacing: -0.578px;
+    }
+
+    .card-text {
+        color: #333333;
+        font-size: 22.492px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .slick-dots li.slick-active button:before {
+        width: 25px !important;
+        border-radius: 10px;
+        -webkit-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+        background: #FFC444;
+        opacity: 1;
+        left: -7px;
+
+    }
+
+    .slick-dots li button:before {
+        color: black;
+        font-size: 19px;
+        width: 6px !important;
+        text-align: left;
+        background: #222222;
+        opacity: 1;
+        height: 6px !important;
+        border-radius: 50%;
+        webkit-transition: opacity .5s, background-color .5s, width .5s;
+        -o-transition: opacity .5s, background-color .5s, width .5s;
+        transition: opacity .5s, background-color .5s, width .5s;
+        -webkit-transition-delay: .5s, .5s, 0s;
+        -o-transition-delay: .5s, .5s, 0s;
+        transition-delay: .5s, .5s, 0s;
+    }
+
+    .slick-dots li button:before {
+        content: '' !important;
+    }
+
+    .slick-dots {
+
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        bottom: 8%;
+    }
+
+    .slick-dots li {
+
+        margin: 0px;
+        height: 15px !important;
+    }
+
+    .slick-slider {
+        margin: 0 -15px !important;
+    }
+
+
+
+}
+
+@media (max-width:900px) {
+    .course-song-slider h3 {
+        font-size: 27px;
+        text-align: center;
+        max-width: 19ch;
+        margin: 0px auto;
+        line-height: 130%;
+
+    }
+
+    .course-song-slider.slick-track {
+
+        gap: 20px;
+    }
+
+
+    // .course-song-slider .slick-track {
+    //     left: -13%;
+    // }
+}
+
+@media (max-width:600px) {
+
+
+}
+
+@media (min-width:900px) {
+    .course-song-slider .slick-track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // left: -4.2%;
+        right: 0;
+        // gap: 30px;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .course-song-slider .slick-list {
+        height: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .course-song-slider .slick-list {
+        // margin-bottom: -45px;
+    }
+
+}
+
+
+
+
+@media (min-width:1400px) and (max-width:1600px) {
+    //     .course-song-slider .slick-track {
+            
+    //         left: -4%;
+    //         right: 0;
+        
+    // }
+
+    .course-song-slider .slick-prev {
+        left: 42%;
+        bottom: 6.5%;
+        top: auto;
+        z-index: 99;
+    }
+
+    .course-song-slider .slick-next {
+        right: 42%;
+        bottom: 6.5%;
+        top: auto;
+        z-index: 99;
+    }
+
+
+}
+
+

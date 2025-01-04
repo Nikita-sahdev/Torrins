@@ -1,0 +1,24 @@
+.homepageMainDiv {
+    min-height: 77px;
+}
+.homepageMainDiv nav {
+    background: var(--Torrins-Black, #222) !important;
+}
+
+.signInModalcourse .signup-modal-area .form-area .form-group {
+    position: relative;
+}
+
+.signInModalcourse .signup-modal-area .form-area .form-group  .input-group-addon i{
+
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+
+.homepageMainDiv .left-sidebar {
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
